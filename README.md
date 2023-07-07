@@ -1,1 +1,1 @@
-#END TO END MACHINE LEARNING PROJECT
+Developed an End to end machine learning project to predict the student maths marks using data. Project utilises the MLOps operations/techniques for the easy development and faster developement and deployment. Used Flask develop the website. Used Docker to containerize for easy deployment on servers. Deployed the website on Render. Any changes to the project will get instantly reflected on the deployed website . Project follows the complete Mlops pipeline for Continuous integration and continuous deployment .
