@@ -95,8 +95,9 @@ class ModelTrainer:
             best_model_name = list(model_report.keys())[
                 list(model_report.values()).index(best_model_score)
             ]
+          #  print(best_model_name)
             best_model = models[best_model_name]
-
+            # logging.info("best model is {best_model}")
             if best_model_score<0.6:
                 raise CustomException("No best model found")
             logging.info(f"Best found model on both training and testing dataset")
